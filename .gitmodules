@@ -1,0 +1,6 @@
+[submodule "Modules/PlaylistApp"]
+	path = Modules/PlaylistApp
+	url = https://github.com/inacioferrarini/video-app-playlist-module.git
+[submodule "Modules/Shared"]
+	path = Modules/Shared
+	url = https://github.com/inacioferrarini/video-app-shared-module.git
