@@ -1,0 +1,24 @@
+{
+  "name": "PlaylistModule",
+  "version": "0.0.1",
+  "summary": "Video App Playlist Module.",
+  "description": "Playlist Module for VideoApp.",
+  "homepage": "http://gitmobile.itau/framework/sdk-ios",
+  "license": "MIT",
+  "authors": {
+    "Inácio Ferrarini": "inacio.ferrarini@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/inacioferrarini/video-app-playlist-module.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Playlist/**/*.swift",
+  "dependencies": {
+    "Glasgow": [
+
+    ]
+  }
+}

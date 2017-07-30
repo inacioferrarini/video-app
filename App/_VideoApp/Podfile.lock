@@ -1,0 +1,39 @@
+PODS:
+  - Arrow (3.0.5)
+  - Glasgow (0.1.0):
+    - Glasgow/Arrow (= 0.1.0)
+    - Glasgow/Core (= 0.1.0)
+    - Glasgow/Networking (= 0.1.0)
+    - Glasgow/Transformer (= 0.1.0)
+    - Glasgow/UIKit (= 0.1.0)
+  - Glasgow/Arrow (0.1.0):
+    - Arrow (= 3.0.5)
+    - Glasgow/Transformer
+  - Glasgow/Core (0.1.0)
+  - Glasgow/Networking (0.1.0):
+    - Glasgow/Transformer
+  - Glasgow/Transformer (0.1.0)
+  - Glasgow/UIKit (0.1.0):
+    - Glasgow/Core
+  - PlaylistAppModule (0.0.1):
+    - Glasgow
+    - SharedModule
+  - SharedModule (0.0.2):
+    - Glasgow
+
+DEPENDENCIES:
+  - PlaylistAppModule (from `../../Modules/PlaylistApp`)
+
+EXTERNAL SOURCES:
+  PlaylistAppModule:
+    :path: "../../Modules/PlaylistApp"
+
+SPEC CHECKSUMS:
+  Arrow: b696d6173296da330d1a995019db42f693249cd6
+  Glasgow: 39d41637c125a39aade3cd89a66489d619e81ea7
+  PlaylistAppModule: 851aeaff854795062b93691cbf3a779771af156e
+  SharedModule: 4a9a3d221b6f87cbdad9827918ecd514aaaf08de
+
+PODFILE CHECKSUM: 806fbd0f77eb87ff5adef53d70edd86012844180
+
+COCOAPODS: 1.2.1

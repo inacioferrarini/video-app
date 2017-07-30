@@ -1,0 +1,6 @@
+framework module PlaylistAppModule {
+  umbrella header "PlaylistAppModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

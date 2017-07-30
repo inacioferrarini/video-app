@@ -1,0 +1,11 @@
+
+workspace: VideoApp.xcworkspace
+xcodeproj: VideoApp.xcodeproj
+scheme: VideoApp
+output_directory: slather-report
+source_directory: VideoApp
+coverage_service: html
+ignore:
+  - Pods/*
+  - VideoAppTests/*
+
